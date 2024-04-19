@@ -12,8 +12,8 @@ import java.util.logging.Logger;
 public class Conexion {
     String bd = "runt";
     String url = "jdbc:mysql://localhost:3306/";
-    String user = "ramiro";
-    String pass = "admin";
+    String user = "root";
+    String pass = "";
     String driver = "com.mysql.cj.jdbc.Driver";
     Connection cx;
 
